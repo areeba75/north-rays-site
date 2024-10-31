@@ -38,7 +38,7 @@ const NavbarDropdown = ({ imgBoxHeading, route }: imgBoxHeadingProps) => {
           <div className="flex justify-center gap-10">
             <div className='border p-8 space-y-5 w-1/4 bg-neutral-200'>
               <h4 className='font-bold text-xl'>{imgBoxHeading}</h4>
-              <div><img src="./images/Services.jpg" className='h-48 w-full' alt="Image" /></div>
+              <div><Image src="./images/Services.jpg" className='h-48 w-full' alt="Image" /></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque tenetur nobis praesentium, quis a harum.</p>
 
               <div className='text-orange-500'>

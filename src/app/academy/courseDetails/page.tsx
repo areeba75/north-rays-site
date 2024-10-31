@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import ResponsiveNavbar from "@/components/AcadmyNavbar/ResponsiveNavbar";
 import AcadmyNavbar from "@/components/AcadmyNavbar/AcadmyNavbar";
 import { FaStar } from "react-icons/fa";
@@ -7,7 +7,6 @@ import { FaListCheck, FaLinkedin } from "react-icons/fa6";
 import { TbMessageDots } from "react-icons/tb";
 import Image from 'next/image';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-
 
 
 const CourseDetils = () => {
@@ -21,7 +20,7 @@ const CourseDetils = () => {
         <div className='bg-neutral-100'>
           <div className='2xl:w-[1440px] mx-auto'>
             <div className="py-6 px-2 sm:p-6">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
                 alt="IBM logo"
                 className="w-24 mb-4"
@@ -34,7 +33,7 @@ const CourseDetils = () => {
                 and hands-on experience to get job-ready in less than 6 months.
               </p>
               <div className="flex items-center mb-4">
-                <img
+                <Image
                   src="https://i.imgur.com/kPznr0I.jpg" // Use a placeholder for instructor images
                   alt="Instructor"
                   className="w-12 h-12 rounded-full"
@@ -62,7 +61,7 @@ const CourseDetils = () => {
                 <span className="font-bold">19,805</span> already enrolled
               </p>
               <div className="mt-4">
-                <img
+                <Image
                   src="https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/coursera-favicon-v2.png"
                   alt="Coursera Plus"
                   className="w-6 h-6 inline mr-2"
@@ -132,7 +131,7 @@ const CourseDetils = () => {
             <div className="mt-8">
               {/* What you'll learn */}
               <div>
-                <h2 className="text-lg font-semibold mb-4">What you'll learn</h2>
+                <h2 className="text-lg font-semibold mb-4">What you will learn</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   <ul className="space-y-2">
                     <li>✔️ Use generative AI tools to develop ideas and content, make informed decisions.</li>
@@ -147,7 +146,7 @@ const CourseDetils = () => {
 
               {/* Skills You'll Gain */}
               <div className="mt-8">
-                <h2 className="text-lg font-semibold mb-4">Skills you'll gain</h2>
+                <h2 className="text-lg font-semibold mb-4">Skills you will gain</h2>
                 <div className="flex flex-wrap gap-2">
                   {['Artificial Intelligence (AI)', 'Prompt Engineering', 'LLMs', 'Generative AI'].map((skill, index) => (
                     <span

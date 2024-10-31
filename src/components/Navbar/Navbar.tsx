@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { useState } from 'react';
-import { RxHamburgerMenu, RxCross1 } from "react-icons/rx"; // Importing close icon
+import { RxHamburgerMenu} from "react-icons/rx"; // Importing close icon
 import { BsArrowUpRight } from "react-icons/bs";
 import NavbarDropdown from './HoverDropdown';
 import SideBar from './SideBar';
@@ -67,14 +67,14 @@ const Navbar = () => {
                                     />
                                 </li>
                                 <li className="mb-4 md:mb-0 block md:hidden">
-                                    <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Let's Talk</button>
+                                    <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Lets Talk</button>
                                 </li>
                             </ul>
                         </div>
                     
 
                     <div className='hidden lg:block'>
-                        <button className="bg-white text-black hover:bg-[#FA8500] hover:text-white  py-2 px-4 rounded-md transition-colors duration-300 ease-in-out flex gap-4"><span>Let's Talk</span>
+                        <button className="bg-white text-black hover:bg-[#FA8500] hover:text-white  py-2 px-4 rounded-md transition-colors duration-300 ease-in-out flex gap-4"><span>Lets Talk</span>
                             <span className='relative top-1'> <BsArrowUpRight /> </span>
                         </button>
                     </div>

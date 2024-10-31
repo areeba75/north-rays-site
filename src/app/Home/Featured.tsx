@@ -1,8 +1,5 @@
 import React from "react";
-import { FaSteamSquare, FaLightbulb, FaAward, FaUsers, FaRocket, FaCog } from "react-icons/fa";
-import { TbSettingsAutomation } from "react-icons/tb";
 import { FaUsersGear } from "react-icons/fa6";
-import { SiArstechnica } from "react-icons/si";
 import { GrSecure } from "react-icons/gr";
 import { AiOutlineSecurityScan } from "react-icons/ai";
 import { LuWallet } from "react-icons/lu";
@@ -41,18 +38,6 @@ const featuredData: FeaturedItem[] = [
     headline: "Dedicated Team of Experts",
     details: "Our experienced team of developers and marketers work closely with clients to deliver tailored solutions for each business challenge.",
   },
-  // {
-  //   id: 5,
-  //   icon: <FaRocket className="text-4xl text-red-600" />,
-  //   headline: "Accelerating Business Growth",
-  //   details: "By leveraging data-driven marketing strategies, we help businesses scale rapidly and reach new markets with innovative technologies.",
-  // },
-  // {
-  //   id: 6,
-  //   icon: <FaCog className="text-4xl text-indigo-600" />,
-  //   headline: "Customized Tech Solutions",
-  //   details: "From custom software to advanced AI integration, we build tech solutions designed to enhance operational efficiency and productivity.",
-  // },
 ];
 
 const FeaturedCards = () => {

@@ -85,7 +85,7 @@ const Payment: React.FC = () => {
         </button>
 
         {/* Disclaimer Section */}
-        <p className="text-gray-600 text-sm">You won't be charged today</p>
+        <p className="text-gray-600 text-sm">You woould nott be charged today</p>
         <p className="text-xs text-gray-500 mt-4">
           Claim this limited-time offer by November 30, 11:59 PM PT. Valid for
           new Google Professional Certificate purchase only, limited to one per

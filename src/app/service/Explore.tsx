@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdOutlineHealthAndSafety } from "react-icons/md";
 import Link from 'next/link';
 import { exploredata } from './FieldData';
 

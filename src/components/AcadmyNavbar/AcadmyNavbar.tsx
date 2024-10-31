@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 import {dataScienceDegreeItems, businessDegreeItems, webDevelopment, softwareEngineer } from "./Data";
 import { FiSearch } from "react-icons/fi";
-
+import Image from 'next/image';
 
 interface array1Props {
   title?: string;
@@ -189,7 +189,7 @@ interface DegreeItemProps {
 
 const DegreeItem = ({ logo, university, degree }: DegreeItemProps) => (
   <div className="flex items-start space-x-3 mb-4">
-    <img src={logo} alt="Logo" className="w-10 h-10" />
+    <Image src={logo} alt="Logo" className="w-10 h-10" />
     <div>
       <p className="font-medium text-gray-900">{university}</p>
       <p className="text-gray-600">{degree}</p>

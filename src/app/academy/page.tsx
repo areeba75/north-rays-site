@@ -4,7 +4,6 @@ import PopularCertificate from "./PopularCertificate";
 import ExploreCoursera from "./ExploreCoursera";
 import Outcomes from "./Outcomes";
 import Goals from "./Goals";
-import Academy from "./Acdmy";
 import ResponsiveNavbar from "@/components/AcadmyNavbar/ResponsiveNavbar";
 import AcadmyNavbar from "@/components/AcadmyNavbar/AcadmyNavbar";
 

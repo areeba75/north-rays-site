@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import imge from "../../../public/office.webp";
 import { FcGoogle } from "react-icons/fc";
-import { IconType } from "react-icons";
 import { StaticImageData } from "next/image";
 
 interface CertificateProps {

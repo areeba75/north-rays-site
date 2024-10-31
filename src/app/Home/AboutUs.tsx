@@ -1,10 +1,11 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
-import { IoIosArrowRoundForward } from "react-icons/io";
-import { url } from 'inspector';
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
+import aboutBgImage from "../../../public/s-shape-opacity.png"
+// import { url } from 'inspector';
+import { IoIosArrowRoundForward } from "react-icons/io";
 import { aboutdetail } from './ServicesDetail';
 
 
@@ -30,11 +31,8 @@ const AboutUs = () => {
   return (
     <section>
       <div className=' flex flex-col md:flex-row lg:py-12 pl-2 lg:px-20'>
-
-
-        
         <div className='relative w-full flex justify-center border-b lg:border-none py-12 lg:py-0 px-4 lg:px-6'>
-          <Image src={'/s-shape-opacity.png'} alt='Image'
+          <Image src={aboutBgImage} alt='Image'
             width={250} height={250}
             className='absolute md:w-[250px] w-[150px] top-[40px]  z-0 xl:left-[20%] md:transition-transform md:duration-50 '
             style={{ transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none', transition: 'transform 0.3s ease' }} />

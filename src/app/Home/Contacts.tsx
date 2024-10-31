@@ -1,4 +1,4 @@
-import React ,{useState} from "react";
+import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const contacts = () => {
@@ -15,7 +15,7 @@ const contacts = () => {
         <p className="md:text-[18px] leading-8 text-black mb-12 w-5/6">
           At North Rays, we are dedicated to empowering businesses with
           cutting-edge technology solutions and innovative marketing strategies.
-          Whether you're looking for custom software, AI-powered tools, VR/AR
+          Whether looking for custom software, AI-powered tools, VR/AR
           experiences, or IT consulting and support, our team is here to help   
           your business thrive in the digital age. Let’s work together to
           illuminate your path to success. Reach out to us today and discover

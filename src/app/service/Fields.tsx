@@ -1,5 +1,4 @@
 import React from 'react'
-import { RiRobot2Line } from "react-icons/ri";
 import { fielddata } from './FieldData';
 
 

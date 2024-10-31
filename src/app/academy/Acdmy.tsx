@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import fac from "../../../public/Fac.jpg";
-import world from "../../../public/world.jpg";
 import office from "../../../public/office.webp";
 import english from "../../../public/sEnglish.webp";
 import frontend from "../../../public/frontend.webp";
@@ -16,8 +15,8 @@ const Academy = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [openIndex1, setOpenIndex1] = useState<number | null>(null);
 
-  const isOpen1 = (index: any) => openIndex === index;
-  const isOpen2 = (index: any) => openIndex1 === index;
+  const isOpen1 = (index: number) => openIndex === index;
+  const isOpen2 = (index: number) => openIndex1 === index;
 
   const arrImage = [
     {

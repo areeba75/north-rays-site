@@ -1,5 +1,4 @@
 import React from 'react'
-import { category, program } from './Data'
 
 
 interface progType{

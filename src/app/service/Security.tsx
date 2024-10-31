@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsDatabaseCheck } from "react-icons/bs";
 import { securitydata } from './FieldData';
 
 

@@ -5,9 +5,8 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 
 interface SideBarProp {
-    closeState: string,
+    closeState: React.MouseEventHandler<HTMLSpanElement>;
 }
-
 const SideBar = ({ closeState }: SideBarProp) => {
 
     const [homeChild, setHomeCHild] = useState(false);
@@ -23,7 +22,7 @@ const SideBar = ({ closeState }: SideBarProp) => {
                     <span className="text-black text-2xl cursor-pointer relative top-2" onClick={closeState}> <RxCross1 />
                     </span>
                 </div>
-                <hr />
+                <hr/>
                 {
                     !homeChild && (
                         <>
@@ -50,7 +49,7 @@ const SideBar = ({ closeState }: SideBarProp) => {
                                     Services
                                 </li>
                                 <li className="mb-4 md:mb-0 block md:hidden">
-                                    <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Let's Talk</button>
+                                    <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Lets Talk</button>
                                 </li>
                             </ul>
                         </>
@@ -71,7 +70,7 @@ const SideBar = ({ closeState }: SideBarProp) => {
                                 Reviews
                             </li>
                             <li className="mb-4 md:mb-0 block md:hidden">
-                                <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Let's Talk</button>
+                                <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Lets Talk</button>
                             </li>
                         </ul>
                     )

@@ -62,9 +62,9 @@ const HeroAcademy = () => {
             <p className="text-[14px]">Job openings: 336,402**</p>
             <p className="text-[14px]">Projected 10 year growth: +11.1%***</p>
             <p className="text-[14px]">
-              "Earning my Google Project Management: Professional Certificate is
-              one of the biggest accomplishments I’ve made in my education, and
-              it was a key stepping stone to my new career." – Adrienne
+              Earning my Google Project Management: Professional Certificate is
+              one of the biggest accomplishments I have made in my education, and
+              it was a key stepping stone to my new career. Adrienne
             </p>
           </div>
           <div className="md:w-4/6">
