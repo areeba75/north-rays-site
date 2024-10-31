@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { GoChevronDown } from "react-icons/go";
 import Image from 'next/image';
-import { university } from './Data';
 
 interface University {
   image: string;
@@ -69,11 +68,11 @@ const Hero : React.FC<UniType> = ({university}) => {
                    <div className='absolute border w-[200px] mt-2 p-4 space-y-4 bg-white shadow-md'>
                    <div className='flex items-center'>
                      <input type='checkbox' className='mr-2' />
-                     <label htmlFor=''>Bachelor's Degree</label>
+                     <label htmlFor=''>Bachelors Degree</label>
                    </div>
                    <div className='flex items-center'>
                      <input type='checkbox' className='mr-2' />
-                     <label htmlFor=''>Master's Degree</label>
+                     <label htmlFor=''>Masters Degree</label>
                    </div>
 
                    <div className='border-t-2 py-2 flex justify-between'>
