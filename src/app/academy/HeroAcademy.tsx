@@ -52,7 +52,7 @@ const HeroAcademy = () => {
           <div className="md:pr-5 md:w-3/6">
             <h2 className="text-[24px] py-5">Project Maneger</h2>
             <p className="text-[14px]">
-              Oversee the planning and execution of projects to ensure they’re
+              Oversee the planning and execution of projects to ensure they are
               successful
             </p>
             <p className="text-[18px] font-bold">Median Salary</p>
@@ -87,7 +87,7 @@ const HeroAcademy = () => {
                   management, Planning.
                 </p>
                 <p className="text-[14px]">
-                  Beginner 'Professional Certificate'
+                  Beginner Professional Certificate
                 </p>
               </div>
 
@@ -108,7 +108,7 @@ const HeroAcademy = () => {
                   management, Planning.
                 </p>
                 <p className="text-[14px]">
-                  Beginner 'Professional Certificate'
+                  Beginner Professional Certificate
                 </p>
               </div>
             

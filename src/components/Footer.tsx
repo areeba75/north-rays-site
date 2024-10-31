@@ -24,8 +24,8 @@ const Footer = () => {
               Nort Rays
             </h1>
             <p className="text-[14px] leading-8  tracking-wide text-[#6b6b6e]">
-              "Empowering businesses with cutting-edge technology and innovative
-              marketing solutions. Let's shape the future together with North Rays."
+              Empowering businesses with cutting-edge technology and innovative
+              marketing solutions. Lets shape the future together with North Rays.
             </p>
           </div>
         </div>

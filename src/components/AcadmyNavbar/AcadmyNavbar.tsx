@@ -206,7 +206,7 @@ interface DataProps {
   array4?: string;
 }
 
-const Data = ({ heading, subLine, array1, array2, array3, array4 }: DataProps) => {
+const Data = ({ heading, subLine, array1, array2}: DataProps) => {
   return (
     <>
       <h1 className="text-2xl font-bold mb-2">{heading}</h1>

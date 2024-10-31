@@ -36,7 +36,7 @@ const Academy = () => {
     {
       img: english,
       heading: "Spoken English",
-      para: "Learning English by yourself can be a challenge but it is possible. There are ways you can improve your reading, writing, listening and speaking skills — even though there is no-one physically around you to help you practice.",
+      para: "Learning English by yourself can be a challenge but it is possible. There are ways you can improve your reading, writing, listening and speaking skills ,even though there is no-one physically around you to help you practice.",
       btn: "Enroll Now",
     },
     {

@@ -17,7 +17,7 @@ const contacts = () => {
           cutting-edge technology solutions and innovative marketing strategies.
           Whether looking for custom software, AI-powered tools, VR/AR
           experiences, or IT consulting and support, our team is here to help   
-          your business thrive in the digital age. Let’s work together to
+          your business thrive in the digital age. Lets work together to
           illuminate your path to success. Reach out to us today and discover
           how we can help your business stay ahead in the fast-evolving digital
           world.

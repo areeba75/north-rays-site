@@ -7,6 +7,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 interface SideBarProp {
     closeState: React.MouseEventHandler<HTMLSpanElement>;
 }
+
 const SideBar = ({ closeState }: SideBarProp) => {
 
     const [homeChild, setHomeCHild] = useState(false);
