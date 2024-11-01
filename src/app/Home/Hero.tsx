@@ -19,7 +19,6 @@ const Hero = () => {
         <Image
           src="/bggalaxy.webp"
           alt="bg"
-       
           layout="fill"
           objectFit="cover"
           objectPosition="center"

@@ -1,5 +1,5 @@
 "use client"; // Ensure this is at the top for client-side components
-import Header from './page'; // Adjust import path based on file structure
+import Header from './Home/page'; // Adjust import path based on file structure
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

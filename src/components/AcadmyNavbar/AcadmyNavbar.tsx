@@ -3,18 +3,20 @@ import React, { useState } from 'react';
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 import {dataScienceDegreeItems, businessDegreeItems, webDevelopment, softwareEngineer } from "./Data";
 import { FiSearch } from "react-icons/fi";
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
+
+
 
 interface array1Props {
   title?: string;
-  logo: string;
+  logo: StaticImageData | string;
   university: string;
   degree: string;
 }
 
 interface array2Props {
   title?: string;
-  logo: string;
+  logo: StaticImageData | string;
   university: string;
   degree: string;
 }
@@ -166,9 +168,9 @@ const DegreesSection = ({ hoveredItem }: DegreesSectionProps) => {
       case "earn-degree":
         return <Data heading="Earn a Degree" subLine="Advance your career with a degree." array1={dataScienceDegreeItems}  array2={businessDegreeItems}/>;
       case "data-science":
-        return <Data heading="Data Science" subLine="Explore data science programs." array1={webDevelopment}  array2={softwareEngineer}/>;
+        return <Data heading="Data Science" subLine="Explore data science programs."      array1={webDevelopment}  array2={softwareEngineer}/>;
       case "business":
-        return <Data heading="Business" subLine="Explore business programs." array1={dataScienceDegreeItems}  array2={businessDegreeItems}/>;
+        return <Data heading="Business" subLine="Explore business programs."              array1={dataScienceDegreeItems}  array2={businessDegreeItems}/>;
       default:
         return null;
     }
@@ -182,7 +184,7 @@ const DegreesSection = ({ hoveredItem }: DegreesSectionProps) => {
 };
 
 interface DegreeItemProps {
-  logo: string;
+  logo: StaticImageData | string;
   university: string;
   degree: string;
 }
@@ -243,7 +245,6 @@ const Data = ({ heading, subLine, array1, array2}: DataProps) => {
                   degree={item.degree}
                 />
               </>
-
             ))
           }
           <a href="#" className="text-blue-600 hover:underline">View all Business degrees</a>

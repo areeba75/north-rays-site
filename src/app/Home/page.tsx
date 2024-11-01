@@ -1,10 +1,13 @@
 import Hero from "./Hero";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
-import Footer from "../../components/Footer";
-import Featured from "./Featured";
 import Technology from "./Technology";
+import Featured from "./Featured";
 import Contacts from "./Contacts";
+import Footer from "@/components/Footer";
+
+
+
 const Headers = () => {
   return (
     <div>
@@ -23,9 +26,6 @@ const Headers = () => {
       <div>
         <Featured />
       </div>
-      {/* <div>
-        <Contact />
-      </div> */}
       <div>
         <Contacts />
       </div>

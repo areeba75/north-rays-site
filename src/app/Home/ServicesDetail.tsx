@@ -1,5 +1,3 @@
-// import service_img from '/service_img.webp'
-
 import service_img from "../../../public/service_img.webp"
 
 

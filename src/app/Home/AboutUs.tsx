@@ -34,11 +34,14 @@ const AboutUs = () => {
         <div className='relative w-full flex justify-center border-b lg:border-none py-12 lg:py-0 px-4 lg:px-6'>
           <Image src={aboutBgImage} alt='Image'
             width={250} height={250}
-            className='absolute md:w-[250px] w-[150px] top-[40px]  z-0 xl:left-[20%] md:transition-transform md:duration-50 '
-            style={{ transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none', transition: 'transform 0.3s ease' }} />
+            className='absolute md:w-[250px] w-[150px] top-[40px]  z-0 xl:left-[20%] md:transition-transform md:duration-50'
+            style={{ transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none', transition: 'transform 0.3s ease' }}
+             />
           <div className='relative md:h-[400px] flex items-start '>
             <div>
-              <p className=' transition-transform duration-50 text-sm text-[#5b5f6e]' style={{ transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none' }}>About Us</p>
+              <p className=' transition-transform duration-50 text-sm text-[#5b5f6e]'
+               style={{ transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none' }}
+               >About Us</p>
 
               <h2 className='text-lg h-full flex items-start justify-center md:text-xl lg:text-2xl xl:text-6xl lg:w-[500px] xl:w-[800px] bg-clip-text text-transparent transition-tranform duration-300'
                 style={{
@@ -46,7 +49,8 @@ const AboutUs = () => {
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: gradientOpacity === 0 ? 'black' : 'transparent',
                   transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none'
-                }}>
+                }}
+                >
                   Empowering our global clientele to embrace modern technology, rethink processes, and elevate experiences
               </h2>
             </div>
@@ -83,4 +87,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default AboutUs;

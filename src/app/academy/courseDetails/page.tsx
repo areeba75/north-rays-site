@@ -1,11 +1,12 @@
 "use client";
 import React, {useState} from 'react';
+import Image from 'next/image';
+import ibmLogo from "../../../../public/ibm-logo.png";
 import ResponsiveNavbar from "@/components/AcadmyNavbar/ResponsiveNavbar";
 import AcadmyNavbar from "@/components/AcadmyNavbar/AcadmyNavbar";
 import { FaStar } from "react-icons/fa";
 import { FaListCheck, FaLinkedin } from "react-icons/fa6";
 import { TbMessageDots } from "react-icons/tb";
-import Image from 'next/image';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 
@@ -21,7 +22,7 @@ const CourseDetils = () => {
           <div className='2xl:w-[1440px] mx-auto'>
             <div className="py-6 px-2 sm:p-6">
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+                src={ibmLogo}
                 alt="IBM logo"
                 className="w-24 mb-4"
               />
@@ -34,7 +35,7 @@ const CourseDetils = () => {
               </p>
               <div className="flex items-center mb-4">
                 <Image
-                  src="https://i.imgur.com/kPznr0I.jpg" // Use a placeholder for instructor images
+                  src={ibmLogo} // Use a placeholder for instructor images
                   alt="Instructor"
                   className="w-12 h-12 rounded-full"
                 />
@@ -62,7 +63,7 @@ const CourseDetils = () => {
               </p>
               <div className="mt-4">
                 <Image
-                  src="https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/coursera-favicon-v2.png"
+                  src={ibmLogo}
                   alt="Coursera Plus"
                   className="w-6 h-6 inline mr-2"
                 />
