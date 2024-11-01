@@ -1,49 +1,50 @@
 import service_img from '../../../public/service_img.webp'
 
+
 export const serviceDetail = [
     {
-        src : {service_img}, 
-        h3 : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        src: service_img,  // Directly assign service_img
+        h3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         h4: 'Voluptatem ratione atque itaque excepturi sunt magni sint non quo nobis doloremque.',
-        href : '',
-        button : 'Learn More'
+        href: '',
+        button: 'Learn More'
     },
     {
-        src : {service_img}, 
-        h3 : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        src: service_img,  // Directly assign service_img
+        h3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         h4: 'Voluptatem ratione atque itaque excepturi sunt magni sint non quo nobis doloremque.',
-        href : '',
-        button : 'Learn More'
+        href: '',
+        button: 'Learn More'
     },
     {
-        src : {service_img}, 
-        h3 : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        src: service_img,  // Directly assign service_img
+        h3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         h4: 'Voluptatem ratione atque itaque excepturi sunt magni sint non quo nobis doloremque.',
-        href : '',
-        button : 'Learn More'
+        href: '',
+        button: 'Learn More'
     },
     {
-        src : {service_img}, 
-        h3 : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        src: service_img,  // Directly assign service_img
+        h3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         h4: 'Voluptatem ratione atque itaque excepturi sunt magni sint non quo nobis doloremque.',
-        href : '',
-        button : 'Learn More'
+        href: '',
+        button: 'Learn More'
     },
     {
-        src : {service_img}, 
-        h3 : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        src: service_img,  // Directly assign service_img
+        h3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         h4: 'Voluptatem ratione atque itaque excepturi sunt magni sint non quo nobis doloremque.',
-        href : '',
-        button : 'Learn More'
+        href: '',
+        button: 'Learn More'
     },
     {
-        src : {service_img}, 
-        h3 : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        src: service_img,  // Directly assign service_img
+        h3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         h4: 'Voluptatem ratione atque itaque excepturi sunt magni sint non quo nobis doloremque.',
-        href : '',
-        button : 'Learn More'
+        href: '',
+        button: 'Learn More'
     },
-]
+];
 
 export const aboutdetail = [
     {

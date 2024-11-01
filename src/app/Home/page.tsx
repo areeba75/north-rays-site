@@ -4,7 +4,7 @@ import Services from "./Services";
 import Footer from "../../components/Footer";
 import Featured from "./Featured";
 import Technology from "./Technology";
-import Contacts from "./Contacts"
+import Contacts from "./Contacts";
 const Headers = () => {
   return (
     <div>
@@ -26,7 +26,9 @@ const Headers = () => {
       {/* <div>
         <Contact />
       </div> */}
-<div><Contacts/></div>
+      <div>
+        <Contacts />
+      </div>
       <div>
         <Footer />
       </div>
