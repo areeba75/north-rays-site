@@ -1,14 +1,10 @@
 "use client";
-import Header from './Home/page';
+import Header from './page'; // Adjust path as necessary
 import { useEffect } from 'react';
 import AOS from 'aos';
-
-AOS.init();
-
-
+import 'aos/dist/aos.css';
 
 export default function Home() {
-
   useEffect(() => {
     if (typeof window !== 'undefined') {
       AOS.init({
@@ -16,6 +12,7 @@ export default function Home() {
         easing: 'ease-in-out',
         once: false,
       });
+      AOS.refresh(); // Ensure animations are refreshed
     }
   }, []);
 
