@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
+
+
 const Hero = () => {
   return (
     <>
@@ -32,9 +34,9 @@ const Hero = () => {
             <Navbar />
           </div>
           <div>
-            <div className="flex items-center pl-4 sm:pl-10 lg:pl-48 h-[92.5vh]">
+            <div className="flex items-center px-3 sm:pl-10 lg:pl-48 h-[92.5vh]">
               <div className="md:w-[800px] text-white text-justify">
-                <h1 className="font-light">
+                <h1 className="font-light ">
                   Empowering Businesses in the Digital Age
                 </h1>
                 <div className="md:leading-10 py-10 font-light">

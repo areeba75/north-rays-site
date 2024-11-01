@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { BsArrowUpRight } from "react-icons/bs";
+import Image from 'next/image';
 import Link from 'next/link';
+import dropDownImg from "../../../public/images/Services.jpg"
 // import eyeimge from "../../public/images/Services.jpg";
 
 interface imgBoxHeadingProps {
@@ -30,7 +31,7 @@ const NavbarDropdown = ({ imgBoxHeading, route }: imgBoxHeadingProps) => {
         <div
           onMouseEnter={() => setIsOpen(true)}
           onMouseLeave={() => setIsOpen(false)}
-          className="fixed right-0 bottum- w-full mt-2 origin-top-right bg-white border border-gray-200 rounded-md shadow-lg z-20"
+          className="fixed right-0 bottum- w-full mt-2 origin-top-right bg-white border border-gray-200 shadow-lg z-20"
         >
 
           {/* imgBoxHeading, image, imgBoxPara */}
@@ -38,7 +39,7 @@ const NavbarDropdown = ({ imgBoxHeading, route }: imgBoxHeadingProps) => {
           <div className="flex justify-center gap-10">
             <div className='border p-8 space-y-5 w-1/4 bg-neutral-200'>
               <h4 className='font-bold text-xl'>{imgBoxHeading}</h4>
-              <div><Image src="./images/Services.jpg" className='h-48 w-full' alt="Image" /></div>
+              <div><Image src={dropDownImg} className='h-48 w-full' alt="Image" /></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque tenetur nobis praesentium, quis a harum.</p>
 
               <div className='text-orange-500'>
