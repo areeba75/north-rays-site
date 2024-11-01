@@ -1,4 +1,6 @@
-import service_img from '../../../public/service_img.webp'
+// import service_img from '/service_img.webp'
+
+import service_img from "../../../public/service_img.webp"
 
 
 export const serviceDetail = [
@@ -45,6 +47,7 @@ export const serviceDetail = [
         button: 'Learn More'
     },
 ];
+
 
 export const aboutdetail = [
     {
