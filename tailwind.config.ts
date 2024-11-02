@@ -16,20 +16,23 @@ const config: Config = {
       },
       keyframes: {
         example: {
-          '0%': { backgroundColor: 'red' },
-          '100%': { backgroundColor: 'yellow' },
+          "0%": { backgroundColor: "red" },
+          "100%": { backgroundColor: "yellow" },
         },
         colorChange: {
-          '0%': { color: 'red' },
-          '100%': { color: 'yellow' },
+          "0%": { color: "red" },
+          "100%": { color: "yellow" },
         },
         marquee: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-100%)' },
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
         },
       },
       animation: {
-        colorChange: 'colorChange 4s infinite',
+        colorChange: "colorChange 4s infinite",
+      },
+      paths: {
+        "@/*": ["./src/*"],
       },
     },
   },
