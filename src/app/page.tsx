@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 // import Page from './home/page';
 import dynamic from 'next/dynamic';
-const Page = dynamic(() => import('./home/page'), { ssr: false });
+const Hoome = dynamic(() => import('./home/page'), { ssr: false });
 
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <>
-      <Page />
+      <Hoome />
     </>
   );
 }
